@@ -1,0 +1,143 @@
+* {
+    	font-family: 微軟正黑體;
+}
+html,body{
+		margin: 0;
+		padding: 0;
+}
+
+.container{
+		max-width: 80%;
+		margin: 100px auto;
+}
+.header .header_main img{
+		margin: 0 auto;
+		width: 163px;
+		display: block;
+}
+.header .header_nav ul {       	 	
+    	border: solid 1px #fff;
+    	text-align: center;
+    	line-height: 30px;
+    	display: flex;
+	    justify-content: center;
+}
+.header .header_nav ul .btn:hover{
+		font-size: 20px;
+	    /* border-radius: 10px; */
+	    /* padding: 5px 5px; */
+	    transition-duration: 0.2s;
+	    /* margin-right: 50px; */
+	    border: 1px solid #fff;
+    	background-color: #fff;
+    	color: #7C3A;    
+    	/* font-weight: 700 */
+}
+
+.about .container {
+		margin-top: 350px;
+}
+.about .container .about_up,.about .container .about_down{
+		margin: 0 auto;
+		width: 700px;
+}
+
+
+.event .container .event_up,.event .container .event_down{
+		margin: 0 auto;
+		max-width: 700px;
+		justify-content: center;
+}
+.event .container {
+		margin-top: 300px;
+
+}
+
+.cafemenu,.cafemenu .container{
+	/* border: solid 1px gray; */
+}
+
+
+.cafemenu,.cafemenu .container,.cafemenu_up{
+		margin: 0 auto;
+		max-width: 700px;
+		/* justify-content: center; */
+		/* display: flex; */
+		margin-bottom:  50px;
+}
+.cafemenu , .cafemenu .container , .cafemenu_down{
+	   /* background-color: pink; */
+	   width: 100%;
+}
+.cafemenu_down_left{
+	  /* background-color: gray; */
+	  width: 35%;
+	  float: left;
+	  text-align:right;  
+
+}
+
+.cafemenu_down_main{
+	  /* background-color: yellow; */
+	  width: 30%;
+	  float: left;
+	  text-align:right;  
+}
+.cafemenu_down_right{
+	  /* background-color: gray; */
+	  width: 35%;
+	  float: right;
+	  text-align:right; 
+
+}
+.clear-both {
+	clear: both;
+}
+.onlinestore  .container .onlinestore_up{
+	   	display: flex;
+	    justify-content: center;
+	    margin-bottom: 100px;
+}
+.onlinestore  .container .onlinestore_down{
+	   display: flex;
+	   justify-content: center;
+}
+
+
+
+.information .container .information_up{
+	   display: flex;
+	   justify-content: center;
+	   margin: 0 auto;
+	   max-width: 700px;
+	   
+}
+.information .container .information_down_suggest hi{
+
+
+}
+.information .container .information_down_suggest .information_map_right{
+	    float: right;
+}
+.information .container .information_down_suggest .information_map_left p1 p3 p5
+{
+	   width: 400px;
+	   margin-left: 20px;
+	     -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+}
+
+.information .container .information_down_suggest .information_map_left p2 p4 p6{
+
+         width: 400px;
+         float: left;
+	   margin-left: 20px;
+       float: left;
+	     -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                background-color: gray;
+}
+
+
