@@ -3,10 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>読書 Dokusho</title>
 	<link rel="stylesheet" href="">
 	<link rel="stylesheet" href="style/Wibsite Mockup PC.css">
 	<link rel="stylesheet" href="link/swiper/swiper.min.css">
+
 	<style>
  
 
@@ -14,23 +15,36 @@
 </head>
 <body>
 	<div class="all">
-		<div class="header">
+		<!-- <div class="header">
 		     <div class="container">
 		        <div class="header_main">
 		      	    	<img src="img/logo167 163.svg" alt="">
 		        </div>
 		      	<div class="header_nav">
 		    	    <ul>
-			    		<a href="#about" class="btn">ABOUT</a>
-			        	<a href="#event" class="btn">EVENT</a>
-			        	<a href="#coffee" class="btn">COFFEE</a>
-			        	<a href="#onlinestore" class="btn">ONLINE STORE</a>
-			        	<a href="#information" class="btn">INFORMATION</a>
+			    		<a1 href="#about" class="btn">ABOUT</a>
+			        	<a2 href="#event" class="btn">EVENT</a>
+			        	<a3 href="#coffee" class="btn">COFFEE</a>
+			        	<a4 href="#onlinestore" class="btn">ONLINE STORE</a>
+			        	<a5 href="#information" class="btn">INFORMATION</a>
 		        	</ul>
 		   		</div>		
 			</div>
-	    </div>
+	    </div> -->
 
+         <div class="header">
+         	<div class="header_up">
+         		<img src="img/logo167 163.svg" alt="">
+         	</div>
+         	<div class="header_down" >
+         			<div class="button btn1">ABOUT</div>
+     	     		<div class="button btn2">EVENT</div>
+     	     		<div class="button btn3">COFFEE</div>
+     	     		<div class="button btn4">ONLINE STORE</div>
+     	     		<div class="button btn5">INFORMATION</div>    		
+         	</div>
+
+         </div>
 
 
 		<div class="swiper-container">
@@ -176,13 +190,19 @@
 					<div class="information_map_right">
            		         <img src="img/map.jpg" alt="">
 		 		   </div>
+
 			   		 <div class="information_map_left">
 			   		 	<form action="get.php" method="get">
-			   		 		Email addres：<input type='text'><br>
-							Subjrct：     <input type='text'><br>
-							Message：     <input type='text'><br>
-							              <p><input type='submit' value='send'></p>
+			   		 		Name:    <input class="information_input" type='text'><br>
+			   		 		Email addres：<input class="information_input" type='text'><br>
+																				             
+					    <textarea cols="50" rows="5">message</textarea >
+					    <button type="button" class="btn btn-primary">send</button>
+
+					    	 <!-- <p><input type='submit' value='send'></p> -->
 						</form>
+
+
 
 			   		 </div> 
 				</div>
